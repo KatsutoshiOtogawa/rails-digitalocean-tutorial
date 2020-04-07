@@ -62,6 +62,13 @@ class Application < Rails::Applicationの中に
 config.hosts << "example.com"
 ```
 
+下記の場所にServerName,location(ipアドレスを制限するため、)
+railsプロジェクトの位置が書かれている。
+
+```
+# vi /etc/nginx/sites-available/rails
+```
+
 ## Refference
 [railsのエラーについて](https://qiita.com/taiteam/items/a37c60fc15c1aa5bb606)
 [railsプロジェクトのrenmae方法](https://qiita.com/ryoya-s/items/66e426f1a0dd5d87cd6f)

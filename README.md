@@ -65,3 +65,4 @@ config.hosts << "example.com"
 ## Refference
 [railsのエラーについて](https://qiita.com/taiteam/items/a37c60fc15c1aa5bb606)
 [railsプロジェクトのrenmae方法](https://qiita.com/ryoya-s/items/66e426f1a0dd5d87cd6f)
+(https://www.phusionpassenger.com/library/walkthroughs/deploy/ruby/digital_ocean/standalone/enterprise/deploy_updates.html)

@@ -1,0 +1,2 @@
+# rails-digitalocean-tutorial
+digitaloceanのチュートリアルです。

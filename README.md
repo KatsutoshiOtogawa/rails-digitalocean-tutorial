@@ -15,11 +15,24 @@ $ systemctl start rails
 
 railsアプリケーションのインストール先
 /home/rails/example
+exampleプロジェクトという名称で入っているので、
+exampleをrootユーザーで
+```
+# cp -a example example.org
+```
+
+exampleをコピーして控えをとり、
+少人数ならexampleプロジェクトを直接
+変更していく方法でもよい。
+visual studio codeまたはcloud9でssh経由でプロジェクト開いて,,,
+
+プロジェクが完成したら、
+exampleプロジェクトをrenmae
 
 railsユーザーに変更するときは
 rootユーザー時に
 ```
-$ sudo -i -u rails
+# sudo -i -u rails
 ```
 
 と実行するタイポではない。
@@ -51,3 +64,4 @@ config.hosts << "example.com"
 
 ## Refference
 [railsのエラーについて](https://qiita.com/taiteam/items/a37c60fc15c1aa5bb606)
+[railsプロジェクトのrenmae方法](https://qiita.com/ryoya-s/items/66e426f1a0dd5d87cd6f)
